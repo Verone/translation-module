@@ -1,0 +1,25 @@
+{
+    "name": "verone-translation-module",
+    "version": "1.0.0",
+    "description": "A translation module for jQuery applications.",
+    "main": "dist/main.js",
+    "scripts": {
+      "build": "babel src --out-dir dist"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Verone/translation-module"
+    },
+    "keywords": ["translation", "jquery", "module"],
+    "author": "Danilo Verone",
+    "license": "MIT",
+    "dependencies": {
+      "jquery": "^3.6.0"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.13.0",
+      "@babel/core": "^7.13.1",
+      "@babel/preset-env": "^7.13.5"
+    }
+  }
+  
